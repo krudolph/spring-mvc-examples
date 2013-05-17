@@ -21,14 +21,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>3.2.0.RELEASE</version>
+      <version>3.2.2.RELEASE</version>
     </dependency>
 
     <!-- Test dependencies -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>3.2.0.RELEASE</version>
+      <version>3.2.2.RELEASE</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -55,7 +55,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
       <plugin>
         <groupId>com.googlecode.t7mp</groupId>
         <artifactId>maven-t7-plugin</artifactId>
-        <version>0.9.10</version>
+        <version>0.9.13</version>
         <configuration>
           <!-- configuration of the path on 
           localhost http://localhost:8080/<path> -->
