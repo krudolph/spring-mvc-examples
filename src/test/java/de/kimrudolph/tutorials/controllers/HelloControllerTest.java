@@ -1,4 +1,4 @@
-package de.kimrudolph.tutorials;
+package de.kimrudolph.tutorials.controllers;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -6,8 +6,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
 
 import org.junit.Test;
-
-import de.kimrudolph.tutorials.controllers.HelloController;
 
 public class HelloControllerTest {
 
